@@ -1,0 +1,413 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+----------------------
+ClientTest: test_valid
+----------------------
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+----------------------
+ClientTest: test_valid
+----------------------
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+---------------------------------------
+ClientTest: test_name,_surname_presence
+---------------------------------------
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+----------------------
+ClientTest: test_valid
+----------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+---------------------------------------
+ClientTest: test_name,_surname_presence
+---------------------------------------
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+----------------------
+ClientTest: test_valid
+----------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+---------------------------------------
+ClientTest: test_name,_surname_presence
+---------------------------------------
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+---------------------
+ClientTest: test_to_s
+---------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (15.2ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 20:18:46 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 20:18:46 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+----------------------
+ClientTest: test_valid
+----------------------
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+----------------------
+AccountTest: test_init
+----------------------
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (6.8ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 20:53:05 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 20:53:05 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+---------------------------------------
+ClientTest: test_name,_surname_presence
+---------------------------------------
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+---------------------
+ClientTest: test_to_s
+---------------------
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Sat, 25 May 2013 20:53:05 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 20:53:05 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+----------------------
+ClientTest: test_valid
+----------------------
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+----------------------
+AccountTest: test_init
+----------------------
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (6.6ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 20:53:29 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 20:53:29 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+---------------------------------------
+ClientTest: test_name,_surname_presence
+---------------------------------------
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+---------------------
+ClientTest: test_to_s
+---------------------
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Sat, 25 May 2013 20:53:29 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 20:53:29 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+----------------------
+ClientTest: test_valid
+----------------------
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+---------------------------------
+AccountTest: test_balance_is_zero
+---------------------------------
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (31.0ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 21:31:54 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 21:31:54 UTC +00:00]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 3], ["created_at", Sat, 25 May 2013 21:31:54 UTC +00:00], ["number", 314763342], ["updated_at", Sat, 25 May 2013 21:31:54 UTC +00:00]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+-----------------------------------
+AccountTest: test_balance_validator
+-----------------------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 21:31:54 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 21:31:54 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 4], ["created_at", Sat, 25 May 2013 21:31:54 UTC +00:00], ["number", 611217962], ["updated_at", Sat, 25 May 2013 21:31:54 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+----------------------
+AccountTest: test_init
+----------------------
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 21:31:54 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 21:31:54 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+------------------------
+AccountTest: test_number
+------------------------
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Sat, 25 May 2013 21:31:54 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 21:31:54 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["client_id", 6], ["created_at", Sat, 25 May 2013 21:31:54 UTC +00:00], ["number", 425811483], ["updated_at", Sat, 25 May 2013 21:31:54 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+---------------------------------
+AccountTest: test_balance_is_zero
+---------------------------------
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (6.8ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 21:35:50 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 21:35:50 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 7], ["created_at", Sat, 25 May 2013 21:35:50 UTC +00:00], ["number", 861831662], ["updated_at", Sat, 25 May 2013 21:35:50 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+-----------------------------------
+AccountTest: test_balance_validator
+-----------------------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 21:35:50 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 21:35:50 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 8], ["created_at", Sat, 25 May 2013 21:35:50 UTC +00:00], ["number", 715450813], ["updated_at", Sat, 25 May 2013 21:35:50 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+----------------------
+AccountTest: test_init
+----------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 21:35:50 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 21:35:50 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 9], ["created_at", Sat, 25 May 2013 21:35:50 UTC +00:00], ["number", 607773465], ["updated_at", Sat, 25 May 2013 21:35:50 UTC +00:00]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+------------------------
+AccountTest: test_number
+------------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.8ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 21:35:50 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 21:35:50 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 10], ["created_at", Sat, 25 May 2013 21:35:50 UTC +00:00], ["number", 287382679], ["updated_at", Sat, 25 May 2013 21:35:50 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+---------------------------------
+AccountTest: test_balance_is_zero
+---------------------------------
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (7.3ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 21:36:14 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 21:36:14 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 11], ["created_at", Sat, 25 May 2013 21:36:14 UTC +00:00], ["number", 223713432], ["updated_at", Sat, 25 May 2013 21:36:14 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+-----------------------------------
+AccountTest: test_balance_validator
+-----------------------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 21:36:14 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 21:36:14 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 12], ["created_at", Sat, 25 May 2013 21:36:14 UTC +00:00], ["number", 638533238], ["updated_at", Sat, 25 May 2013 21:36:14 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+----------------------
+AccountTest: test_init
+----------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 21:36:14 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 21:36:14 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 13], ["created_at", Sat, 25 May 2013 21:36:14 UTC +00:00], ["number", 345410149], ["updated_at", Sat, 25 May 2013 21:36:14 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+------------------------
+AccountTest: test_number
+------------------------
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 21:36:14 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 21:36:14 UTC +00:00]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 14], ["created_at", Sat, 25 May 2013 21:36:14 UTC +00:00], ["number", 66885686], ["updated_at", Sat, 25 May 2013 21:36:14 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+---------------------------------
+AccountTest: test_balance_is_zero
+---------------------------------
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (8.4ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.5ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 1], ["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["number", 613517102], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+-----------------------------------
+AccountTest: test_balance_validator
+-----------------------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 2], ["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["number", 411244008], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+----------------------
+AccountTest: test_init
+----------------------
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 3], ["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["number", 26152397], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+------------------------
+AccountTest: test_number
+------------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 4], ["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["number", 764767862], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+--------------------------------
+AccountTest: test_update_balance
+--------------------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 5], ["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["number", 765437135], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "transactions" ("account_id", "amount", "created_at", "descr", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["account_id", 5], ["amount", 100], ["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["descr", "wplata 1"], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[36mAccount Load (1.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = $1 ORDER BY "accounts"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mTransaction Load (0.7ms)[0m  SELECT "transactions".* FROM "transactions" WHERE "transactions"."account_id" = $1  [["account_id", 5]]
+  [1m[36mSQL (1.7ms)[0m  [1mUPDATE "accounts" SET "balance" = $1, "updated_at" = $2 WHERE "accounts"."id" = 5[0m  [["balance", 100], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "transactions" ("account_id", "amount", "created_at", "descr", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["account_id", 5], ["amount", 250], ["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["descr", "wplata 2"], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = $1 ORDER BY "accounts"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mTransaction Load (0.3ms)[0m  SELECT "transactions".* FROM "transactions" WHERE "transactions"."account_id" = $1  [["account_id", 5]]
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "accounts" SET "balance" = $1, "updated_at" = $2 WHERE "accounts"."id" = 5[0m  [["balance", 350], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+---------------------------------------
+ClientTest: test_name,_surname_presence
+---------------------------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+---------------------
+ClientTest: test_to_s
+---------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 22:00:37 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 22:00:37 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+----------------------
+ClientTest: test_valid
+----------------------
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+---------------------------------
+AccountTest: test_balance_is_zero
+---------------------------------
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (6.7ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 1], ["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["number", 130520895], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+-----------------------------------
+AccountTest: test_balance_validator
+-----------------------------------
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 2], ["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["number", 843343976], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+----------------------
+AccountTest: test_init
+----------------------
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 3], ["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["number", 242424029], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+------------------------
+AccountTest: test_number
+------------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 4], ["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["number", 600973624], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+--------------------------------
+AccountTest: test_update_balance
+--------------------------------
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("client_id", "created_at", "number", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 5], ["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["number", 574903871], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "transactions" ("account_id", "amount", "created_at", "descr", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["account_id", 5], ["amount", 100], ["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["descr", "wplata 1"], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[36mAccount Load (1.6ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = $1 ORDER BY "accounts"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mTransaction Load (1.0ms)[0m  SELECT "transactions".* FROM "transactions" WHERE "transactions"."account_id" = $1  [["account_id", 5]]
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "accounts" SET "balance" = $1, "updated_at" = $2 WHERE "accounts"."id" = 5[0m  [["balance", 100], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "transactions" ("account_id", "amount", "created_at", "descr", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["account_id", 5], ["amount", 250], ["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["descr", "wplata 2"], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = $1 ORDER BY "accounts"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mTransaction Load (0.3ms)[0m  SELECT "transactions".* FROM "transactions" WHERE "transactions"."account_id" = $1  [["account_id", 5]]
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "accounts" SET "balance" = $1, "updated_at" = $2 WHERE "accounts"."id" = 5[0m  [["balance", 350], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.6ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+---------------------------------------
+ClientTest: test_name,_surname_presence
+---------------------------------------
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+---------------------
+ClientTest: test_to_s
+---------------------
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "clients" ("created_at", "email", "name", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Sat, 25 May 2013 22:07:28 UTC +00:00], ["email", "jan@wp.pl"], ["name", "Jan"], ["phone", "234-234-234"], ["surname", "Nowak"], ["updated_at", Sat, 25 May 2013 22:07:28 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+----------------------
+ClientTest: test_valid
+----------------------
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
