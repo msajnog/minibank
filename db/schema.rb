@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130525214009) do
+ActiveRecord::Schema.define(version: 20130527181756) do
 
   create_table "accounts", force: true do |t|
     t.integer  "client_id",              null: false
@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 20130525214009) do
     t.string   "phone"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "password_digest"
   end
 
   create_table "transactions", force: true do |t|

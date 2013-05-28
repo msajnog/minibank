@@ -1,0 +1,5 @@
+%tr
+  %td= account.number
+  %td= account.balance
+  %td= link_to 'Show', [@client, account]
+  %td= link_to 'Destroy', [@client, account], :method => :delete, :data => { :confirm => 'Are you sure?' }

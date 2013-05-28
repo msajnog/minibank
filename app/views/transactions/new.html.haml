@@ -1,0 +1,10 @@
+%h2 Nowa transakcja
+
+= form_for [@account, @transaction] do |f|
+  .field
+    = f.label :amount
+    = f.text_field :amount
+  .field
+    = f.label :descr
+    = f.text_field :descr
+  = f.submit 'Zapisz', class: 'btn'

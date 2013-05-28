@@ -1,0 +1,10 @@
+= form_tag sessions_path do
+  .field
+    = label_tag :email, 'Email'
+    = text_field_tag :email, params[:email]
+  .field
+    = label_tag :password, 'Hasło'
+    = password_field_tag :password
+  .form-actions
+    = submit_tag 'Zaloguj mnie', class: 'btn btn-primary'
+    = link_to 'Nowy klient', new_client_path, class: 'btn'

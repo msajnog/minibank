@@ -5,7 +5,10 @@ class AccountTest < ActiveSupport::TestCase
   def setup
     @client = Client.create!(
         name: 'Jan', surname: 'Nowak',
-        email: 'jan@wp.pl', phone: '234-234-234')
+        email: 'jan@wp.pl', phone: '234-234-234',
+        password: '123123',
+        password_confirmation: '123123')
+    assert @client.save
     @account = @client.accounts.create!
   end
 
