@@ -10293,3 +10293,698 @@ Started GET "/assets/transactions.js?body=1" for 192.168.88.1 at 2013-05-28 14:0
 
 
 Started GET "/assets/application.js?body=1" for 192.168.88.1 at 2013-05-28 14:04:45 +0200
+
+
+Started GET "/login" for 192.168.88.1 at 2013-05-28 15:27:12 +0200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (58.1ms)
+Completed 200 OK in 202ms (Views: 200.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/accounts.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/clients.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/transactions.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/accounts.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/clients.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/transactions.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:13 +0200
+
+
+Started GET "/login" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/accounts.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/clients.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/transactions.css?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/accounts.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/clients.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+
+
+Started GET "/assets/transactions.js?body=1" for 192.168.88.1 at 2013-05-28 15:27:16 +0200
+  [1m[36mClient Load (4.9ms)[0m  [1mSELECT "clients".* FROM "clients" ORDER BY "clients"."id" ASC LIMIT 1[0m
+  Rendered client_mailer/welcome.text.haml (35.3ms)
+
+Sent mail to janek@wp.pl (89.7ms)
+Date: Tue, 28 May 2013 15:45:41 +0200
+From: info@minibank.com
+To: janek@wp.pl
+Message-ID: <51a4b505c7c30_d71c04ff4522eb@ubuntu.mail>
+Subject: Witamy :)
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Witaj Jan,
+Dzi=C4=99kujemy za za=C5=82o=C5=BCenie konta w naszej aplikacji.
+Zapraszamy na stron=C4=99
+http://minibank.com/login
+Pozdrawiamy
+_____________
+Tw=C3=B3j MiniBank
+
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-28 15:46:13 +0200
+
+
+Started GET "/clients/new" for 192.168.88.1 at 2013-05-28 15:46:31 +0200
+Processing by ClientsController#new as HTML
+  Rendered clients/_form.html.haml (88.5ms)
+  Rendered clients/new.html.haml within layouts/application (97.0ms)
+Completed 200 OK in 171ms (Views: 104.9ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/clients" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"py6aEJc86kBGuNf3mO2gU2E3vnzQt7Gh/27d+qGyUA0=", "client"=>{"name"=>"mateusz", "surname"=>"sajnog", "email"=>"sajnog.mateusz@pollub.edu.pl", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "phone"=>"345-345-345"}, "commit"=>"Save"}
+  [1m[36m (2.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (32.7ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "password_digest", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Tue, 28 May 2013 15:47:02 CEST +02:00], ["email", "sajnog.mateusz@pollub.edu.pl"], ["name", "mateusz"], ["password_digest", "$2a$10$pDNZOxG.koLuJGE0o5fnzOXJvxUBoGf.uuSHN5VP9KbGGGfbtZ9ry"], ["phone", "345-345-345"], ["surname", "sajnog"], ["updated_at", Tue, 28 May 2013 15:47:02 CEST +02:00]]
+  [1m[36m (3.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.88.145:3000/clients/6
+Completed 302 Found in 174ms (ActiveRecord: 39.3ms)
+
+
+Started GET "/clients/6" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"6"}
+Redirected to http://192.168.88.145:3000/login
+Filter chain halted as :auth! rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/accounts.css?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/clients.css?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/transactions.css?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/accounts.js?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/clients.js?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/transactions.js?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.88.1 at 2013-05-28 15:47:02 +0200
+
+
+Started POST "/sessions" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"py6aEJc86kBGuNf3mO2gU2E3vnzQt7Gh/27d+qGyUA0=", "email"=>"sajnog.mateusz@pollub.edu.pl", "password"=>"[FILTERED]", "commit"=>"Zaloguj mnie"}
+  [1m[35mClient Load (3.4ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."email" = 'sajnog.mateusz@pollub.edu.pl' LIMIT 1
+Redirected to http://192.168.88.145:3000/clients/6/accounts
+Completed 302 Found in 221ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/clients/6/accounts" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+Processing by AccountsController#index as HTML
+  Parameters: {"client_id"=>"6"}
+  [1m[36mClient Load (1.5ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mClient Load (0.5ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", "6"]]
+  [1m[36mAccount Load (3.4ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."client_id" = $1 ORDER BY id LIMIT 5 OFFSET 0[0m  [["client_id", 6]]
+  Rendered collection (0.0ms)
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "accounts" WHERE "accounts"."client_id" = $1  [["client_id", 6]]
+  Rendered accounts/index.html.haml within layouts/application (44.8ms)
+Completed 200 OK in 135ms (Views: 48.9ms | ActiveRecord: 9.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/accounts.css?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/clients.css?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/transactions.css?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/accounts.js?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/clients.js?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/transactions.js?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.88.1 at 2013-05-28 15:54:36 +0200
+
+
+Started GET "/" for 192.168.88.1 at 2013-05-28 15:54:42 +0200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (5.1ms)
+  [1m[36mClient Load (0.4ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/clients//accounts" for 192.168.88.1 at 2013-05-28 15:54:44 +0200
+Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"accounts"}
+  [1m[35mClient Load (0.5ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mClient Load (0.6ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", "accounts"]]
+Completed 404 Not Found in 8ms
+
+ActiveRecord::RecordNotFound (Couldn't find Client with id=accounts):
+  app/controllers/clients_controller.rb:68:in `set_client'
+
+
+  Rendered /home/msajnog/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/msajnog/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/msajnog/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/msajnog/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.9ms)
+
+
+Started GET "/logout" for 192.168.88.1 at 2013-05-28 15:55:00 +0200
+Processing by SessionsController#destroy as HTML
+  [1m[35mClient Load (0.7ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 6]]
+Redirected to http://192.168.88.145:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 192.168.88.1 at 2013-05-28 15:55:00 +0200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 55ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/new" for 192.168.88.1 at 2013-05-28 15:55:31 +0200
+Processing by ClientsController#new as HTML
+  Rendered clients/_form.html.haml (9.4ms)
+  Rendered clients/new.html.haml within layouts/application (11.1ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/clients" for 192.168.88.1 at 2013-05-28 15:55:50 +0200
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"py6aEJc86kBGuNf3mO2gU2E3vnzQt7Gh/27d+qGyUA0=", "client"=>{"name"=>"pawel", "surname"=>"jasny", "email"=>"pawel@wp.pl", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "phone"=>"123-123-123"}, "commit"=>"Save"}
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  Rendered clients/_form.html.haml (14.2ms)
+  Rendered clients/new.html.haml within layouts/application (19.4ms)
+Completed 200 OK in 189ms (Views: 36.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/accounts.css?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/clients.css?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/transactions.css?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/accounts.js?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/clients.js?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/transactions.js?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.88.1 at 2013-05-28 15:55:51 +0200
+
+
+Started POST "/clients" for 192.168.88.1 at 2013-05-28 15:55:58 +0200
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"py6aEJc86kBGuNf3mO2gU2E3vnzQt7Gh/27d+qGyUA0=", "client"=>{"name"=>"pawel", "surname"=>"jasny", "email"=>"pawel@wp.pl", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "phone"=>"123-123-123"}, "commit"=>"Save"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "password_digest", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Tue, 28 May 2013 15:55:58 CEST +02:00], ["email", "pawel@wp.pl"], ["name", "pawel"], ["password_digest", "$2a$10$LCQxiZFldmo3CyiVRfbRL.yElva6CfDJfKglLCrnj14P.6XzZVm4m"], ["phone", "123-123-123"], ["surname", "jasny"], ["updated_at", Tue, 28 May 2013 15:55:58 CEST +02:00]]
+  [1m[36m (43.3ms)[0m  [1mCOMMIT[0m
+  Rendered client_mailer/welcome.text.haml (3.2ms)
+Completed 500 Internal Server Error in 1137ms
+
+ActionView::Template::Error (Missing host to link to! Please provide the :host parameter, set default_url_options[:host], or set :only_path to true):
+    4: 
+    5: Zapraszamy na stronę
+    6: 
+    7: = login_url
+    8: 
+    9: Pozdrawiamy
+   10: 
+  app/views/client_mailer/welcome.text.haml:7:in `_app_views_client_mailer_welcome_text_haml__2387022146130063772_20180040'
+  app/mailers/client_mailer.rb:6:in `welcome'
+  app/controllers/clients_controller.rb:34:in `create'
+
+
+  Rendered /home/msajnog/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/msajnog/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/msajnog/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/clients/new" for 192.168.88.1 at 2013-05-28 15:56:28 +0200
+Processing by ClientsController#new as HTML
+  Rendered clients/_form.html.haml (129.8ms)
+  Rendered clients/new.html.haml within layouts/application (140.5ms)
+Completed 200 OK in 301ms (Views: 280.9ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/accounts.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/clients.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/transactions.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/accounts.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/clients.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/transactions.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:29 +0200
+
+
+Started POST "/clients" for 192.168.88.1 at 2013-05-28 15:56:35 +0200
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"py6aEJc86kBGuNf3mO2gU2E3vnzQt7Gh/27d+qGyUA0=", "client"=>{"name"=>"pawel", "surname"=>"jasny", "email"=>"pawel@wp.pl", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "phone"=>"123-123-123"}, "commit"=>"Save"}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (73.1ms)[0m  INSERT INTO "clients" ("created_at", "email", "name", "password_digest", "phone", "surname", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Tue, 28 May 2013 15:56:35 CEST +02:00], ["email", "pawel@wp.pl"], ["name", "pawel"], ["password_digest", "$2a$10$B6LH7vkYBiSyKhSMo/CW.uyE3y.8K64RUdHu9pvfp60FySa9ZbGhG"], ["phone", "123-123-123"], ["surname", "jasny"], ["updated_at", Tue, 28 May 2013 15:56:35 CEST +02:00]]
+  [1m[36m (43.7ms)[0m  [1mCOMMIT[0m
+  Rendered client_mailer/welcome.text.haml (1.7ms)
+
+Sent mail to pawel@wp.pl (22.2ms)
+Date: Tue, 28 May 2013 15:56:36 +0200
+From: info@minibank.com
+To: pawel@wp.pl
+Message-ID: <51a4b794bd5b3_e041123ff8377cc@ubuntu.mail>
+Subject: Witamy :)
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Witaj pawel,
+Dzi=C4=99kujemy za za=C5=82o=C5=BCenie konta w naszej aplikacji.
+Zapraszamy na stron=C4=99
+http://minibank.com/login
+Pozdrawiamy
+_____________
+Tw=C3=B3j MiniBank
+
+Redirected to http://192.168.88.145:3000/login
+Completed 302 Found in 1181ms (ActiveRecord: 117.6ms)
+
+
+Started GET "/login" for 192.168.88.1 at 2013-05-28 15:56:36 +0200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/accounts.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/clients.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/transactions.css?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/accounts.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/clients.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/transactions.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.88.1 at 2013-05-28 15:56:37 +0200
+
+
+Started POST "/sessions" for 192.168.88.1 at 2013-05-28 15:57:08 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"py6aEJc86kBGuNf3mO2gU2E3vnzQt7Gh/27d+qGyUA0=", "email"=>"pawel@wp.pl", "password"=>"[FILTERED]", "commit"=>"Zaloguj mnie"}
+  [1m[35mClient Load (1.2ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."email" = 'pawel@wp.pl' LIMIT 1
+Redirected to http://192.168.88.145:3000/clients/7/accounts
+Completed 302 Found in 156ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/clients/7/accounts" for 192.168.88.1 at 2013-05-28 15:57:08 +0200
+Processing by AccountsController#index as HTML
+  Parameters: {"client_id"=>"7"}
+  [1m[36mClient Load (0.9ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mClient Load (1.7ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", "7"]]
+  [1m[36mAccount Load (2.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."client_id" = $1 ORDER BY id LIMIT 5 OFFSET 0[0m  [["client_id", 7]]
+  Rendered collection (0.1ms)
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "accounts" WHERE "accounts"."client_id" = $1  [["client_id", 7]]
+  Rendered accounts/index.html.haml within layouts/application (17.6ms)
+Completed 200 OK in 115ms (Views: 24.9ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/accounts.css?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/clients.css?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/transactions.css?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/accounts.js?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/clients.js?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/transactions.js?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.88.1 at 2013-05-28 15:57:09 +0200
